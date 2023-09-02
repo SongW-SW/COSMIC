@@ -6,6 +6,15 @@ Code Instruction:
 
 Run the following command:
 
+First extract the datasets:
+
+```
+unzip few_shot_data.zip
+```
+
+
+Then run the python file:
+
 ```
 python train.py --dataset CoraFull
 ```
