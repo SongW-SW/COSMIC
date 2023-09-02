@@ -1,4 +1,4 @@
-Here we provide the code of COSMIC. Our work is submitted to SIGKDD 2023. 
+Here we provide the code of COSMIC: "_Contrastive Meta-Learning for Few-shot Node Classification_". Our work is accepted by SIGKDD 2023. 
 
 
 
