@@ -3,7 +3,7 @@ Here we provide the code of COSMIC: "_Contrastive Meta-Learning for Few-shot Nod
 
 
 
-## Instruction:
+## Instruction
 
 Run the following command:
 
