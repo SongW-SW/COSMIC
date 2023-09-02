@@ -1,9 +1,9 @@
-### COSMIC
+## COSMIC
 Here we provide the code of COSMIC: "_Contrastive Meta-Learning for Few-shot Node Classification_". Our work is accepted by SIGKDD 2023. 
 
 
 
-### Instruction:
+## Instruction:
 
 Run the following command:
 
