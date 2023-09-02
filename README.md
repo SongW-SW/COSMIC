@@ -5,8 +5,6 @@ Here we provide the code of COSMIC: "_Contrastive Meta-Learning for Few-shot Nod
 
 ## Instruction
 
-Run the following command:
-
 First extract the datasets:
 
 ```
