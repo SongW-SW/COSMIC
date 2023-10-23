@@ -58,7 +58,14 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
     # Setting up the subgraph extractor
-    ppr_path = './subgraph/' + args.dataset
+    #ppr_path = './subgraph/' + args.dataset
+    current_directory = os.getcwd()
+    ppr_path=os.path.join(current_directory, 'subgraph')
+    os.makedirs(ppr_path, exist_ok=True)
+    ppr_path=os.path.join(ppr_path,args.dataset)
+    os.makedirs(ppr_path, exist_ok=True)
+
+    
     subgraph = Subgraph(data.x, data.edge_index, ppr_path, args.subgraph_size, args.n_order, args, id_by_class, train_class)
     subgraph.build()
         
